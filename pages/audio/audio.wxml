@@ -1,0 +1,16 @@
+<view class="video_container">
+<view class="video_list_title">功能列表</view>
+点击下面的每一项查看对应的功能演示.
+<navigator url="music/playMusic?title=我喜欢的音乐" hover-class="navigator-hover" class="nav_list">1.music</navigator>
+
+<navigator url="image/showImage?title=我喜欢的图片" hover-class="navigator-hover" class="nav_list">2.image</navigator>
+
+<navigator url="video/playVideo?title=我喜欢的视频" hover-class="navigator-hover" class="nav_list">3.video</navigator>
+
+<navigator url="../map/map?title=地图" hover-class="navigator-hover" class="nav_list">4.map</navigator>
+
+<navigator url="../canvas/canvas?title=canvas" hover-class="navigator-hover" class="nav_list">5.canvas</navigator>
+
+<navigator url="../request/request_try?title=request请求当天的赛事对阵" hover-class="navigator-hover" class="nav_list">6.网络请求</navigator>
+
+</view>

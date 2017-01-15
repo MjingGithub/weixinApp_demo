@@ -1,0 +1,9 @@
+<view class="video_container">
+<view class="title_center">{{title}}</view>
+<view class="simage">
+        <image style="width: 200px; height: 200px;" mode="aspectFit" src="../resources/boy-comdy.jpg"></image>
+<view class="desc_image">宫崎骏-虞美人盛开的山坡 </view>
+         <image style="width: 200px; height: 200px;" mode="aspectFit" src="../resources/wxqc.jpg"></image>
+         <view class="desc_image">微微一笑很倾城,剧照</view>
+      </view>
+</view>

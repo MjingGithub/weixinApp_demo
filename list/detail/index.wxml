@@ -1,0 +1,8 @@
+<view class="container">
+    <view class="detail_title">TODO详情</view>
+    <view class=" view_base">
+    事件内容:<div class="detail_content">{{ title }}.</div>
+    </view>
+    <view class="detail_time view_base">事件时间:{{ create_time }}.
+    </view>
+</view>

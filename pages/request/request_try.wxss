@@ -1,0 +1,17 @@
+/* pages/request/request_try.wxss */
+.title_center{
+    text-align: center;
+    color:  darkseagreen;
+    font-size: 40rpx;
+}
+.container{
+    margin:40rpx;
+    border:2rpx solid #eee;
+}
+.content_detail{
+    padding:20rpx;
+}
+.raceList{
+    color:rgb(69,137,148);
+}
+

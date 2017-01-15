@@ -1,0 +1,13 @@
+/* pages/audio/audio.wxss */
+.video_container{
+    margin:20rpx 10rpx;
+}
+.video_list_title{
+    text-align: center; 
+    color:rgb(39,72,98);
+}
+.nav_list{
+  margin-top:10rpx;
+  margin-left:10rpx;
+  color:rgb(6, 128, 67);
+}

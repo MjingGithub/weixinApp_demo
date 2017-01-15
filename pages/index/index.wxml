@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="index_title">首页</view>
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class="swiper_top">
+  <block  wx:for="{{imgUrls}}" wx:for-item="item" wx:key="*this">
+    <swiper-item class="block_center">
+      <image  mode="aspectFit" src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="container">
+<!--<include src="../common/header.wxml" />-->
+ <view  bindtap="bindViewTap" class="userinfo">
+    
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">
+      Hello,{{userInfo.nickName}} .点我进入管理TODO事件页面
+    </text>
+    
+  </view>
+  
+ <!-- <include src="../common/footer.wxml" />
+  <import src="../template/aboutMe.wxml"/>
+<template is="item" data="{{text: '明静,2017-1-10'}}"/>
+-->
+</view>

@@ -1,0 +1,14 @@
+<view class="title_center">{{title}}</view>
+<view class="container">
+<view classs="content_detail">
+<view class="gameDesc">玩法类型Id:{{gameId}}</view>
+<view class="issueDesc">当前彩期:{{issueNo}}</view>
+<view class="raceList"  wx:for="{{raceList}}" wx:for-index="idx" wx:for-item="item" wx:key="*this">
+赛事编号:{{item.matchNo}}
+赛事名称:{{item.matchName}} 
+对阵:{{item.homeTeam}} VS {{item.guestTeam}}
+比赛时间:{{item.matchTime}}
+截止时间:{{item.endTime}}
+ </view>
+</view>
+</view>

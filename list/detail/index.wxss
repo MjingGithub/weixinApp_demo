@@ -1,0 +1,16 @@
+.container{
+    margin:40rpx ;
+    border:2rpx solid #eee;
+}
+.detail_title{
+ text-align: center;
+ font-weight: bold;
+}
+
+.view_base{
+    padding:30rpx;
+    color:rgb(38, 157, 128);
+}
+
+
+

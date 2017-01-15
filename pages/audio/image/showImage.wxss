@@ -1,0 +1,9 @@
+/* pages/audio/image/showImage.wxss */
+.simage{
+    text-align: center;
+}
+.title_center{
+    text-align: center;
+    color:  darkseagreen;
+    font-size: 40rpx;
+}

@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "list/index",
+    "list/detail/index",
+    "pages/audio/music/playMusic",
+    "pages/audio/audio",
+    "pages/audio/image/showImage",
+    "pages/audio/video/playVideo",
+    "pages/map/map",
+    "pages/canvas/canvas",
+    "pages/request/request_try"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "TODO_LIST",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color":"rgb(131,175,155)",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "image/icon_component.png",
+      "selectedIconPath": "image/icon_component_HL.png",
+      "text": "主页"
+    }, {
+      "pagePath": "pages/audio/audio",
+      "iconPath": "image/icon_API.png",
+      "selectedIconPath": "image/icon_API_HL.png",
+      "text": "功能"
+    }
+    ]
+  }
+}
